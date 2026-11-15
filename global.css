@@ -1,0 +1,43 @@
+body {
+  font: 100%/1.5 system-ui, sans-serif;
+  display: flex;
+  flex-flow: column;
+  max-width: 80em;
+  min-height: 100vh;
+  box-sizing: border-box;
+  margin: auto;
+  padding: 1em;
+}
+
+header {
+  display: flex;
+  align-items: baseline;
+  gap: 1em;
+  flex-wrap: wrap;
+}
+
+header h1 {
+  margin-bottom: 0;
+}
+
+.time-filter {
+  margin-left: auto;
+  text-align: right;
+}
+
+.time-filter input {
+  display: block;
+  width: 220px;
+  margin-top: 0.5em;
+}
+
+.time-filter time,
+.time-filter em {
+  display: block;
+  min-height: 1.5em;
+}
+
+.time-filter em {
+  color: gray;
+  font-style: italic;
+}
